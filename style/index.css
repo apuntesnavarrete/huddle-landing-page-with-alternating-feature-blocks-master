@@ -93,7 +93,6 @@ h1{
 }
 .card-title{
     margin: 50px 0 0 0;
-    font-size: 2em;
     font-size: 1.3em;
 
 }
@@ -132,6 +131,33 @@ max-width: 250px;
     .header_mockup{
         max-width: 450px;
     }
+    .card{
+        max-width: 800px;
+        height: 300px;
+        flex-direction: row;
+        padding: 50px 0;
+        margin: 20px 0;
+
+    }
+    .one , .three{
+        flex-direction: row-reverse;
+
+    }
+    
+    .two .card_top{
+        padding: 20px 23px 20px 40px;
+
+    }
+   
+   .card_top{
+    width: 60%;
+    padding: 20px 23px 20px 0px;
+    text-align: start;
+   }
+   .card-title{
+    margin: 0;
+   }
+    
 }
 
 @media (min-width: 1300px) {
@@ -143,5 +169,19 @@ max-width: 250px;
         padding: 50px;
 
     }
+    .card{
+        max-width:1200px ;
+        height: 400px;
+    
+    }
+    .card-title{
+        font-size: 2em;
 
+    }
+    .card-description{
+        font-size: 1.2em;
+    }
+    .card-img{
+        max-width: 300px;
+    }
 }
