@@ -23,6 +23,8 @@ h1{
     font-size: 1.4em;
 }
 .header{
+    background-image: url("../images/bg-hero-mobile.svg");
+    background-color: var(--Very-Pale-Cyan);
     display: flex;
     flex-direction: column;}
 
@@ -208,6 +210,8 @@ li{
         font-size: 1.8em;
     }
     .header{
+        background-image: url("../images/bg-hero-desktop.svg");
+
         max-width: 100%;
     }
     .header_container{
