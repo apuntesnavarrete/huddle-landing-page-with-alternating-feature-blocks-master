@@ -84,9 +84,12 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 60px;
+
 
 }
 .card{
+    color: var(--Very-Dark-Cyan);
     max-width: 350px;
     display: flex;
     flex-direction: column;
